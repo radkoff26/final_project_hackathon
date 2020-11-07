@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mostimportant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ff37b710ecf84191a2687617c776753e\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.MostImportant" >
+20-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:11:9-51
+21        <activity android:name="com.example.mostimportant.Sport" />
+21-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:12:9-43
+21-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:12:19-40
+22        <activity android:name="com.example.mostimportant.Meditation" />
+22-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:13:9-48
+22-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:13:19-45
+23        <activity android:name="com.example.mostimportant.Eating" />
+23-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:14:9-44
+23-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:14:19-41
+24        <activity android:name="com.example.mostimportant.Walking" />
+24-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:15:9-45
+24-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:15:19-42
+25        <activity android:name="com.example.mostimportant.Rest" />
+25-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:16:9-42
+25-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:16:19-39
+26        <activity android:name="com.example.mostimportant.Activities" />
+26-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:17:9-48
+26-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:17:19-45
+27        <activity android:name="com.example.mostimportant.ResetData" />
+27-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:18:9-47
+27-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:18:19-44
+28        <activity android:name="com.example.mostimportant.input_data" />
+28-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:19:9-48
+28-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:19:19-45
+29        <activity android:name="com.example.mostimportant.Settings" />
+29-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:20:9-46
+29-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:20:19-43
+30        <activity android:name="com.example.mostimportant.input_name" >
+30-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:21:19-45
+31            <intent-filter>
+31-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.mostimportant.MainActivity" >
+37-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:28:9-34:20
+37-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:28:19-47
+38            <intent-filter>
+38-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:29:13-33:29
+39                <action android:name="com.example.mostimportant.MAIN_ACTIVITY" />
+39-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:30:17-82
+39-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:30:25-79
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:32:17-76
+41-->C:\Users\User\Desktop\Main Project\MostImportant\app\src\main\AndroidManifest.xml:32:27-73
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>
